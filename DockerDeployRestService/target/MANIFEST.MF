@@ -1,4 +1,4 @@
-Manifest-Version: 1.0.0.202107141357
+Manifest-Version: 1.0.0.202107141419
 Bundle-SymbolicName: DockerDeployRestService
 Bundle-ManifestVersion: 2
 TIBCO-BW-Edition: bwcf
@@ -10,7 +10,7 @@ Require-Capability: com.tibco.bw.model; filter:="(name=bwext)",com.tib
 TIBCO-BW-ConfigProfile: META-INF/default.substvar
 TIBCO-BW-Version: 2.6.1 V57 2021-02-13
 Bundle-Name: DockerDeployRestService Module
-Bundle-Version: 1.0.0.202107141357
+Bundle-Version: 1.0.0.202107141419
 Bundle-ClassPath: .
 TIBCO-BW-ApplicationModule: META-INF/module.bwm
 TIBCO-BW-JobSharedVariables: META-INF/module.jsv

@@ -13,7 +13,6 @@
   <properties>
     <skipTests>false</skipTests>
     <bw.Home>\bwce\2.6</bw.Home>
-    <docker.env.property.file>C:\Users\smunola.TSI-PA\workspace_261\DockerDeployRestService.application\docker-host-env-dev.properties</docker.env.property.file>
     <project.type>Docker</project.type>
     <failIfNoTests>false</failIfNoTests>
     <docker.property.file>docker-dev.properties</docker.property.file>
@@ -42,7 +41,6 @@
         <configuration>
           <files>
             <file>${docker.property.file}</file>
-            <file>${docker.env.property.file}</file>
           </files>
         </configuration>
       </plugin>
@@ -79,7 +77,6 @@
                   <port>${bwdocker.port.p0}</port>
                   <port>${bwdocker.port.p1}</port>
                 </ports>
-                <envPropertyFile>${docker.env.property.file}</envPropertyFile>
               </run>
             </image>
           </images>
