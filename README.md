@@ -1,2 +1,0 @@
-# DockerDeployRestService.application
-vsdfsdfsdfsfsfsfsf
